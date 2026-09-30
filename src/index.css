@@ -118,23 +118,23 @@ img {
   background-color: black;
   border: none;
 }
-
-.face {
+.card__front,
+.card__back {
   position: absolute;
-  inset: 0;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 5px;
 }
 
 .card__front {
   background-color: hsl(39, 80%, 67%);
+  inset: 0;
 }
 
 .card__back {
-  transform: rotateY(180deg);
-  left: 50%;
+  transform: translate(-50%, -50%) rotateY(180deg);
   top: 50%;
-  translate: -50% -50%;
+  left: 50%;
 }
 
 .card.visible {
