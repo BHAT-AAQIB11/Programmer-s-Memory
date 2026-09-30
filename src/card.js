@@ -1,9 +1,19 @@
+import assembly from "./Img/Assembly.png";
+import cPlus from "./Img/C_plus.png";
+import java from "./Img/Java.png";
+import javascript from "./Img/JavaScript.png";
+import nodejs from "./Img/Nodejs.png";
+import mySQL from "./Img/MySQL.png";
+import python from "./Img/Python.png";
+import react from "./Img/React.png";
+import typescript from "./Img/Typescript.png";
+
 let nextId = 0;
 export const languageCards = [
   {
     id: nextId++,
     name: "javascript",
-    src: "/src/Img/JavaScript.png",
+    src: javascript,
 
     visible: false,
     twin: "no",
@@ -11,7 +21,7 @@ export const languageCards = [
   {
     id: nextId++,
     name: "python",
-    src: "/src/Img/Python.png",
+    src: python,
 
     visible: false,
     twin: "no",
@@ -19,7 +29,7 @@ export const languageCards = [
   {
     id: nextId++,
     name: "c++",
-    src: "/src/Img/C_plus.png",
+    src: cPlus,
 
     visible: false,
     twin: "no",
@@ -27,7 +37,7 @@ export const languageCards = [
   {
     id: nextId++,
     name: "java",
-    src: "/src/Img/Java.png",
+    src: java,
 
     visible: false,
     twin: "no",
@@ -35,7 +45,7 @@ export const languageCards = [
   {
     id: nextId++,
     name: "react",
-    src: "/src/Img/React.png",
+    src: react,
 
     visible: false,
     twin: "no",
@@ -43,7 +53,7 @@ export const languageCards = [
   {
     id: nextId++,
     name: "assembly",
-    src: "/src/Img/Assembly.png",
+    src: assembly,
 
     visible: false,
     twin: "no",
@@ -51,7 +61,7 @@ export const languageCards = [
   {
     id: nextId++,
     name: "typescript",
-    src: "/src/Img/Typescript.png",
+    src: typescript,
 
     visible: false,
     twin: "no",
@@ -59,7 +69,7 @@ export const languageCards = [
   {
     id: nextId++,
     name: "nodejs",
-    src: "/src/Img/Nodejs.png",
+    src: nodejs,
 
     visible: false,
     twin: "no",
@@ -67,7 +77,7 @@ export const languageCards = [
   {
     id: nextId++,
     name: "mysql",
-    src: "/src/Img/MySQL.png",
+    src: mySQL,
 
     visible: false,
     twin: "no",
@@ -77,7 +87,7 @@ const twinLanguageCards = [
   {
     id: nextId++,
     name: "twinjavascript",
-    src: "/src/Img/JavaScript.png",
+    src: javascript,
 
     visible: false,
     twin: "yes",
@@ -85,7 +95,7 @@ const twinLanguageCards = [
   {
     id: nextId++,
     name: "twinpython",
-    src: "/src/Img/Python.png",
+    src: python,
 
     visible: false,
     twin: "yes",
@@ -93,7 +103,7 @@ const twinLanguageCards = [
   {
     id: nextId++,
     name: "twinc++",
-    src: "/src/Img/C_plus.png",
+    src: cPlus,
 
     visible: false,
     twin: "yes",
@@ -101,7 +111,7 @@ const twinLanguageCards = [
   {
     id: nextId++,
     name: "twinjava",
-    src: "/src/Img/Java.png",
+    src: java,
 
     visible: false,
     twin: "yes",
@@ -109,7 +119,7 @@ const twinLanguageCards = [
   {
     id: nextId++,
     name: "twinreact",
-    src: "/src/Img/React.png",
+    src: react,
 
     visible: false,
     twin: "yes",
@@ -117,7 +127,7 @@ const twinLanguageCards = [
   {
     id: nextId++,
     name: "twinassembly",
-    src: "/src/Img/Assembly.png",
+    src: assembly,
 
     visible: false,
     twin: "yes",
@@ -125,7 +135,7 @@ const twinLanguageCards = [
   {
     id: nextId++,
     name: "twintypescript",
-    src: "/src/Img/Typescript.png",
+    src: typescript,
 
     visible: false,
     twin: "yes",
@@ -133,7 +143,7 @@ const twinLanguageCards = [
   {
     id: nextId++,
     name: "twinnodejs",
-    src: "/src/Img/Nodejs.png",
+    src: nodejs,
 
     visible: false,
     twin: "yes",
@@ -141,7 +151,7 @@ const twinLanguageCards = [
   {
     id: nextId++,
     name: "twinmysql",
-    src: "/src/Img/MySQL.png",
+    src: mySQL,
 
     visible: false,
     twin: "yes",
